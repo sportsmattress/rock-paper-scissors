@@ -1,8 +1,8 @@
 const playerText = document.getElementById("playerText");
 const computerText = document.getElementById("computerText");
 const resultText = document.getElementById("resultText");
-const playerScore = document.getElementsByClassName("playerScore");
-const computerScore = document.getElementsByClassName("computerScore");
+const playerScore = document.getElementsByClassName("playerScore")[0];
+const computerScore = document.getElementsByClassName("computerScore")[0];
 choices = ['rock', 'paper', 'scissors']
 let player = 0;
 let computer = 0;
@@ -31,11 +31,11 @@ function playGame(playerChoice) {
     resultText.textContent = result;
 
 
-    if(result = "You Win!"){
+    if(result === "You Win!"){
         player++;
         playerScore.textContent = `Player Score: ${player}`;
         }
-    if(result = "You Lose!"){
+    if(result === "You Lose!"){
         computer++;
         computerScore.textContent = `Computer Score: ${computer}`;
         }
