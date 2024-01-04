@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerText, #computerText {
+    margin: 5px 0px;
+    font-size: 45px;
+}
+
+#resultText {
+    font-size: 65px;
+    margin: 20px 0px;
+}
+
+.choices {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.choices button {
+    height: 90px;
+    width: 90px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid rgb(110, 145, 205);
+    background-color: rgb(115, 183, 243);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(124, 165, 252);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.playerScoreText, .computerScoreText {
+    font-size: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+span {
+    font-size: 10px;
+}
