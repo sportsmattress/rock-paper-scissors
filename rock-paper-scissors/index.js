@@ -1,8 +1,8 @@
 const playerText = document.getElementById("playerText");
 const computerText = document.getElementById("computerText");
 const resultText = document.getElementById("resultText");
-const playerScore = document.getElementsByClassName("playerScore");
-const computerScore = document.getElementsByClassName("computerScore");
+const playerScore = document.getElementById("playerScore");
+const computerScore = document.getElementById("computerScore");
 choices = ['rock', 'paper', 'scissors']
 let player = 0;
 let computer = 0;
